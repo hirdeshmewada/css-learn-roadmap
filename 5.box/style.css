@@ -1,0 +1,15 @@
+.box{
+    border: 20px solid red;
+    /* padding:40px 30px 10px ; */
+    padding:30px;
+    height: 200px;
+    width:200px;
+    margin:40px;
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.bigbox{
+    width: 400px;
+    height: 400px;
+    background-color:gainsboro ;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+   overflow: auto;
+    border: 2px solid red;
+}
+
+.b1{
+    background-color: red;
+    
+}
+.b2{
+    background-color: blue;
+   
+    clear: left;
+}
+
+.b3{
+    background-color: green;
+    float: left;
+    clear: left;
+}
+
+.b4{
+    background-color: yellow;
+    
+}

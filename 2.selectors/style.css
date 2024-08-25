@@ -1,0 +1,27 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    font-size: medium;
+}
+
+#first ,#second{
+   color: red;
+
+}
+p:hover{
+    font-family: monospace;
+}
+.purple{
+    color: purple ;
+}
+/* !important */
+#first>p{
+    color: green;
+}
+.highlight{
+    background-color: yellow;
+    font-weight: 300;
+    font-style: italic;
+}

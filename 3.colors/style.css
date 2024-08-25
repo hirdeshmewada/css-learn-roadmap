@@ -1,0 +1,15 @@
+body{
+     font-size: 24px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     color:darkcyan;
+     background-color:hsla(232, 16%, 82%, 0.582);
+
+}
+
+article{
+    background-color:aquamarine;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 4px;
+}
