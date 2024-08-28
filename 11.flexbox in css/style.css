@@ -41,7 +41,7 @@
     /* order: 1;
     flex-grow: 1;
     flex-shrink: 3; */
-    /* flex-basis: 200px; */
+    flex-basis: 200px;
 }
 #box-3{
      flex: 0 2 200px;

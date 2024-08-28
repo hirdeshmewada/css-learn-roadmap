@@ -1,0 +1,16 @@
+body{
+    background-color: red;
+}
+
+ @media(min-width:400px)and (max-width:500px){
+    body{
+        background-color: green;
+ }
+}
+
+
+@media(500px<=width<=600px){
+    body{
+        background-color: gold;
+ }
+}
