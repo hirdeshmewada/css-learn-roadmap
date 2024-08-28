@@ -1,0 +1,84 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+
+/* Psuedo class */
+.primary-btn:link{
+    padding: 10px;
+    color: green;
+}
+
+.primary-btn:visited{
+    color: orange;
+}
+.primary-btn:hover{
+     color: red;
+     background-color: black;
+     
+}
+.primary-btn:active{
+    color: black;
+    background-color: white;
+    border: 4px solid green;
+
+
+} 
+
+/* ul li:first-child{
+    color: blue;
+    background-color: yellow;
+}
+
+ul li:last-child{
+    background-color: orange;
+} */
+
+/* nth child  */
+/* an+1 */
+
+ul li:nth-child(2n-1){
+    background-color:gray
+}
+
+
+
+/* Psuedo elements */
+
+h2::first-letter{
+    color: red;
+    font-size: 3rem;
+}
+
+::selection{
+    background-color: yellow;
+}
+
+p::first-line{
+    background-color: burlywood;
+
+}
+/* before and after */
+h3::before{
+    content: 'any before is used';
+}
+h3::after{
+    content: ' this is begining';
+}
+
+
+.required::after{
+    content: '*';
+    color: red;
+}
+
+.important::after{
+    content: 'important';
+    background-color: red;
+    padding: 0.2rem;
+    color: white;
+    font-size: 0.5rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
